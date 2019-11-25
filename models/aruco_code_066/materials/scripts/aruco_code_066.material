@@ -1,0 +1,19 @@
+material ac/aruco_code_066
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.9 0.9 0.9 1.0
+			diffuse 0.9 0.9 0.9 1.0
+			specular 0.2 0.2 0.2 1.0 12.5
+
+			texture_unit
+			{
+				texture 00066.png
+				filtering none
+				scale 1 1
+			}
+		}
+	}
+}
